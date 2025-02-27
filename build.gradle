@@ -1,0 +1,28 @@
+// Root project build.gradle
+
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '8.1.1' apply false
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+subprojects {
+    apply plugin: 'java'
+
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        // Define common dependencies here if needed
+    }
+
+    tasks.withType(JavaCompile) {
+        options.encoding = 'UTF-8'
+    }
+}

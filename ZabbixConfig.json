@@ -1,0 +1,1 @@
+{"serverAddress":"localhost","port":443,"hostName":"New Host14","useEncryption":true,"targetHost":"localhost","serverCertificateThumbprint":null,"serverCertificatePath":"nginx-selfsigned.crt","clientCertificateThumbprint":null,"clientCertificatePath":null,"clientCertificatePassword":null,"sslProtocols":"TLSv1.3","pinCertificateBeforeCA":true,"pinCertificateAfterCA":false}

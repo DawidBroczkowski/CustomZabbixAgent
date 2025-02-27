@@ -1,0 +1,1 @@
+{"url":"jdbc:postgresql://192.168.1.197:5433/db","user":"postgres","password":"postgres","databaseType":"postgresql","sqlTasksPath":"sqlTasks.json"}

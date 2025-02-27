@@ -1,0 +1,1 @@
+[{"name":"CPU usage","key":"cpu.usage","value_type":3,"delay":"0","units":"%"},{"name":"Thread count","key":"thread.count","value_type":3,"delay":"0","units":""},{"name":"RAM usage","key":"ram.usage","value_type":3,"delay":"0","units":"%"}]

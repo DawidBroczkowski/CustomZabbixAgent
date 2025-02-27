@@ -1,0 +1,46 @@
+{
+  "disk_info": [
+    {
+      "mount": "C:\\"
+    },
+    {
+      "mount": "D:\\"
+    }
+  ],
+  "network_info": [
+    {
+      "addresses": [],
+      "name": "wlan0"
+    },
+    {
+      "addresses": [],
+      "name": "eth2"
+    },
+    {
+      "addresses": [
+        "192.168.56.1"
+      ],
+      "name": "eth3"
+    },
+    {
+      "addresses": [],
+      "name": "wlan2"
+    },
+    {
+      "addresses": [],
+      "name": "wlan3"
+    },
+    {
+      "addresses": [
+        "192.168.1.231"
+      ],
+      "name": "eth6"
+    },
+    {
+      "addresses": [
+        "172.22.0.1"
+      ],
+      "name": "eth29"
+    }
+  ]
+}

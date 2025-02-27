@@ -1,0 +1,56 @@
+[
+  {
+    "taskClass": "org.example.agentTasks.SystemCpuUsageTask",
+    "interval": 5,
+    "timeUnit": "SECONDS",
+    "params": {}
+  },
+  {
+    "taskClass": "org.example.agentTasks.SystemNetworkUsageTask",
+    "interval": 5,
+    "timeUnit": "SECONDS",
+    "params": {}
+  },
+  {
+    "taskClass": "org.example.agentTasks.SystemDiskUsageTask",
+    "interval": 5,
+    "timeUnit": "SECONDS",
+    "params": {}
+  },
+  {
+    "taskClass": "org.example.agentTasks.SystemRamUsageTask",
+    "interval": 5,
+    "timeUnit": "SECONDS",
+    "params": {}
+  },
+  {
+    "taskClass": "org.example.agentTasks.SystemProcessMonitoringTask",
+    "interval": 5,
+    "timeUnit": "SECONDS",
+    "params": {
+      "filePath": "processes.json"
+    }
+  },
+  {
+    "taskClass": "org.example.agentTasks.SystemUptimeTask",
+    "interval": 5,
+    "timeUnit": "SECONDS",
+    "params": {}
+  },
+  {
+    "taskClass": "org.example.agentTasks.DatabaseMonitoringTask",
+    "interval": 5,
+    "timeUnit": "SECONDS",
+    "params": {
+      "filePath": "databaseMonitoringConfig.json"
+    }
+  },
+  {
+    "taskClass": "org.example.agentTasks.SystemCOMPortTask",
+    "interval": 5,
+    "timeUnit": "SECONDS",
+    "params": {
+      "filePath": "system_info.json"
+    }
+  }
+]
